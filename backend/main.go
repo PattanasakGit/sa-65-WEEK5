@@ -2,7 +2,7 @@ package main
 
 import (
 	"github.com/PattanasakGit/sa-65-WEEK5/backend/controller"
-	"github.com/PattanasakGit/sa-65-WEEK5/entity"
+	"github.com/PattanasakGit/sa-65-WEEK5/backend/entity"
 	"github.com/gin-gonic/gin"
 )
 
@@ -16,9 +16,9 @@ func main() {
 	// User Routes
 	r.GET("/users", controller.ListUsers)
 	r.GET("/user/:id", controller.GetUser)
-	r.POST("/users", controller.CreateUser)
-	r.PATCH("/users", controller.UpdateUser)
-	r.DELETE("/users/:id", controller.DeleteUser)
+	// r.POST("/users", controller.CreateUser)
+	// r.PATCH("/users", controller.UpdateUser)
+	// r.DELETE("/users/:id", controller.DeleteUser)
 
 	// Run the server
 	r.Run()

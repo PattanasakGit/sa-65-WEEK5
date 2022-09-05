@@ -50,8 +50,13 @@ type Patient struct {
 	Patient_Name   string
 	Date_of_Birth  time.Time
 	UserID         *uint
+	User           User
 	GenderID       *uint
+	Gender         Gender
 	Blood_typeID   *uint
+	Blood_type     Blood_type
 	Drug_AllergyID *uint
+	Drug_Allergy   Drug_Allergy
 	RIGHTSID       *uint
+	RIGHTS         RIGHTS
 }

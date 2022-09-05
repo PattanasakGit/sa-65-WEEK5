@@ -3,7 +3,7 @@ package controller
 import (
 	"net/http"
 
-	"github.com/PattanasakGit/sa-65-WEEK5/entity"
+	"github.com/PattanasakGit/sa-65-WEEK5/backend/entity"
 	"github.com/gin-gonic/gin"
 )
 
