@@ -44,6 +44,11 @@ type RIGHTS struct {
 	Patient []Patient `gorm:"foreignKey:RIGHTSID"`
 }
 
+type TEST struct {
+	gorm.Model
+	TEST_Name string
+}
+
 type Patient struct {
 	gorm.Model
 	ID_Card        uint `gorm:"uniqueIndex"`

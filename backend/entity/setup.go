@@ -21,9 +21,10 @@ func SetupDatabase() {
 		&User{},
 		&Gender{},
 		&Blood_type{},
-		Drug_Allergy{},
-		RIGHTS{},
-		Patient{},
+		&Drug_Allergy{},
+		&RIGHTS{},
+		&TEST{},
+		&Patient{},
 	)
 
 	db = database
