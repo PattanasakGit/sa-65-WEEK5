@@ -1,7 +1,7 @@
 package main
 
 import (
-	"github.com/PattanasakGit/sa-65-WEEK5/backend/controller"
+	//"github.com/PattanasakGit/sa-65-WEEK5/backend/controller"
 	"github.com/PattanasakGit/sa-65-WEEK5/backend/entity"
 	"github.com/gin-gonic/gin"
 )
@@ -14,8 +14,8 @@ func main() {
 	r.Use(CORSMiddleware())
 
 	// User Routes
-	r.GET("/users", controller.ListUsers)
-	r.GET("/user/:id", controller.GetUser)
+	//r.GET("/users", controller.ListUsers)
+	//r.GET("/user/:id", controller.GetUser)
 	// r.POST("/users", controller.CreateUser)
 	// r.PATCH("/users", controller.UpdateUser)
 	// r.DELETE("/users/:id", controller.DeleteUser)
